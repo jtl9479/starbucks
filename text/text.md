@@ -36,3 +36,23 @@
     underbar 입력하는 것은 부모 태그의 일부분
     하이픈 기호를 입력하는 것은 어떤 상태를 입력하는 것
 
+
+# git
+
+1. git init 현재 프로젝트에서 변경사항 추적(버전 관리) 시작
+2. git config core.autocrlf input(맥북) true(윈도우) 개행문자 
+   git config user.name 'jtl9479', 
+   git config --global user.email 'fbdrkd327@naver.com' 
+   깃 관련 글로벌 변수 지정
+3. git config --global list
+    글로벌 변수 확인
+4. git status 깃 상태 확인
+5. git add . 변경사항을 추적할 특정 파일을 지정 [수정완료한 소스 스테이지 소스에 올림]
+6. git commit -m 메세지와 함께 버전을 생성 [깃 로컬 서버 저장]
+7. git remote add origin https://github.com/jtl9479/starbucks.git
+    origin이란 별칭으로 원격 저장소를 연결 [원격 서버의 저장소와 로컬 서버 연동]
+8. git push origin main 
+    origin이란 별칭의 원격 저장소로 버전 내역 전송[원격 서버 저장소 저장]
+
+    
+
