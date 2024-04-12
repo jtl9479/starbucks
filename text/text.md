@@ -43,7 +43,7 @@
 2. git config core.autocrlf input(맥북) true(윈도우) 개행문자 
    git config user.name 'jtl9479', 
    git config --global user.email 'fbdrkd327@naver.com' 
-   깃 관련 글로벌 변수 지정
+   깃 관련 글로벌 변수 지정git 
 3. git config --global list
     글로벌 변수 확인
 4. git status 깃 상태 확인
